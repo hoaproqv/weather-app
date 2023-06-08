@@ -80,3 +80,7 @@ form button {
   font-size: 35px;
   color: aqua;
 }
+
+#city p:last-child::first-letter {
+  text-transform: uppercase;
+}
