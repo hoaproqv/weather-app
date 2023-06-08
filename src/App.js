@@ -45,7 +45,7 @@ function App() {
 
   useEffect(() => {
     const fetchWeatherData = async () => {
-      if (!getDataInput) return;
+      if (!searchCity) return;
       setLoading(true);
       try {
         const responsive = await fetch(
